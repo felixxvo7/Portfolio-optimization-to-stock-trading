@@ -1,5 +1,5 @@
 % Read stock data from CSV file
-data_stocks = readtable('C:\Users\felix\Downloads\stock_data.csv');
+data_stocks = readtable("C:\Users\felix\Desktop\CODING\felix's works\Optimization\stock_data.csv");
 
 % Extract stock symbols from the table
 symbol = data_stocks.Properties.VariableNames(2:end);
@@ -47,11 +47,16 @@ columnname = {'Ticker', 'Weight (%)'};
 columnformat = {'char', 'numeric'};
 
 % Extract data for table display
+symbol = transpose(symbol);
 data = table2cell(table(symbol(w1 > 0), w1(w1 > 0) * 100));
 
 % Create and populate the uitable
-uit = uitable(tab2, 'Data', data, 'ColumnName', columnname, 'ColumnFormat', columnformat, 'RowName', []);
+uit = uitable(tab2, 'Data', data,... 
+            'ColumnName', columnname,...
+            'ColumnFormat', columnformat,...
+            'RowName',[]);
 
 % Set table width and height
 uit.Position(3) = 450; % Width
 uit.Position(4) = 350; % Height
+

@@ -1,6 +1,5 @@
-
 % Load historical price data
-data2 = readtable('C:\Users\IRIS\Downloads\stock_data.csv'); % replace with your file name
+data2 = readtable("C:\Users\felix\Desktop\CODING\felix's works\Optimization\stock_old_data.csv");
 
 % Define the stock tickers and benchmark index ticker
 tickers = {'AAPL', 'MSFT', 'AMZN', 'GOOGL', 'TSLA', 'x_GSPC'};
