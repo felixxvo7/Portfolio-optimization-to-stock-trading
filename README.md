@@ -41,6 +41,12 @@ From the theoretical explanations in the paper to the MATLAB code implementation
 
 ---
 
+## Screenshot Preview:
+
+![Picture8](https://github.com/user-attachments/assets/474f1ce8-f759-44c7-a21e-e2dc29a14e70)
+![Picture7a](https://github.com/user-attachments/assets/92e95691-7703-40cb-92eb-b67beb7ba5d0)
+
+
 ## File Descriptions
 
 ### Paper:
