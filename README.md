@@ -1,8 +1,8 @@
 # Portfolio Optimization Project
 
-This project dives into the world of **portfolio optimization** for stock trading, combining both theoretical and practical approaches. It focuses on two core financial strategies:
+This project is **portfolio optimization** for stock trading, combining both theoretical and practical approaches using financial models and optimization algorithms in mathematics. It focuses on two core financial strategies:
 
-1. **Mean-Variance Analysis & CAPM**: Traditional models to balance risk and return.
+1. **Mean-Variance Analysis & CAPM**: Traditional models to balance risk and return. In this project, we use SHARPE ratio and CAPM both constrained and unconstrained.
 2. **Enhanced Index Tracking Portfolio**: A more advanced way to track a benchmark index and aim for better returns.
 
 From the theoretical explanations in the paper to the MATLAB code implementation, we explore how these models work to optimize stock portfolios.
@@ -13,7 +13,7 @@ From the theoretical explanations in the paper to the MATLAB code implementation
 
 ### Paper Highlights
 - **Background**:
-  - Inflation is high, and investments should beat it!
+  - Inflation is high, and investments overcome the problem.
   - The Capital Asset Pricing Model (CAPM) and mean-variance analysis are discussed in depth.
   - A new method, **Enhanced Index Tracking**, is introduced to track and beat benchmark indices (like S&P 500).
 - **Methods**:
@@ -22,8 +22,9 @@ From the theoretical explanations in the paper to the MATLAB code implementation
 - **Tools Used**:
   - Quadratic programming and optimization algorithms.
   - Theoretical formulas for portfolio weights and variance.
+  - Both uses MATLAB to analyze and visualize.
 - **Experiments**:
-  - Real US stock data from Yahoo Finance.
+  - Real US stock data collected from Yahoo Finance.
   - Comparison of traditional vs. enhanced methods.
 
 ### Code Breakdown
